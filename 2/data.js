@@ -10,8 +10,8 @@ var getData = function(){
       state = data;
       console.log(state);
       // functie callen
-      renderData(state);
-
+      renderDataTwo(state);
+      renderPrice(state);
     })
     .catch(function(error){
       console.log(error)
